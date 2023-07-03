@@ -1,13 +1,17 @@
 body{
     background:linear-gradient(to left,#55605C,#57625C,#57625C,#BFA488
-                            ,#606A67,#C9AE91,#5F6458,#C9AE91,#C9AE91)
+                            ,#606A67,#C9AE91,#5F6458,#C9AE91,#C9AE91);
+    
+   
     
 }
 
 .article{
-    width: 40vw;
-
-    margin: 0 auto;
+    width: 70vw;
+    height: fit-content;
+    max-width: 60ch;
+    min-width: 30ch;
+    margin: 0px auto;
     background-color: white;
     font-family: 'Linux Libertine','Georgia','Times',serif;
     line-height: 22px;
